@@ -1,2 +1,2 @@
 # Form_Sederhana
-Membuat Form dari PHP
+Membuat Form menggunakan html
