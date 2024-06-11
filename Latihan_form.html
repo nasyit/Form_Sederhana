@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="polinema_logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+    </head>
+    <style>
+        .button {
+            background-color: rgb(31, 47, 48);
+            border: none;
+            color: white;
+            padding: 8px 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 2px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+        }
+        .button {
+            box-shadow: 0 8px 16px 0 rgba(117, 103, 103, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+        }
+        .button:hover {
+            background-color: rgb(82, 87, 86);
+        }
+
+        .reset:hover {
+            background-color: rgba(216, 82, 82, 0.466);
+        }
+    </style>
+
+<body style="background-color: rgb(173, 188, 250);">
+    <h3>
+        Latihan Membuat Form
+    </h3>
+    <fieldset>
+        <legend>
+            My Identity
+        </legend>
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td>:</td>
+                <td><input type="text" name="firstname"/></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>:</td>
+                <td><input type="text" name="lasttname"/></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="text" name="password"/></td>
+            </tr>
+            <tr>
+                <td>Form Disable</td>
+                <td>:</td>
+                <td><input type="password" name="password"/></td>
+            </tr>
+            <tr>
+                <td>FForm Readonly</td>
+                <td>:</td>
+                <td><input type="text" name="hanya_dibaca" readonly value="tidak bisa diedit"/></td>
+            </tr>
+            <tr>
+                <td>Birth Date</td>
+                <td>:</td>
+                <td><input type="text" name="birthday"/></td>
+            </tr>
+            <tr>
+                <td>Hoby</td>
+                <td>:</td>
+                <td><input type="checkbox" name="hoby" value="draw"/>Drawing
+                    <input type="checkbox" name="hoby" value="sport"/> Sport
+                    <input type="checkbox" name="hoby" value="learn"/> Learning
+                    <input type="checkbox" name="hoby" value="other"/> Other
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>:</td>
+                <td><input type="radio" checked="checked" name="gender" value="male">Male
+                <input type="radio" checked="checked" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>:</td>
+                <td>
+                    <select name="city">
+                        <option value="lumajang">Lumajang</option>
+                        <option value="malang">Malang</option>
+                        <option value="jember">Jember</option>
+                        <option value="pasuruan">Pasuruan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Any Problem</td>
+                <td>:</td>
+                <td><textarea rows="10" cols="30">i have problem</textarea></td>
+            </tr>
+            <tr>
+                <td>Upload Photo</td>
+                <td>:</td>
+                <td><input type="file" name="foto"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="submit" name="save" value="save">
+                <input type="reset" value="reset"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><button class="button button1"><i class="fa fa-save"></i> Save</button>
+                <button class="button button1 reset"><i class="fa fa-reset"></i>Reset</button>
+            </tr>
+        </table>
+    </fieldset>
+
+</body>
+</html>
